@@ -4,7 +4,7 @@ Kernel.puts("First Number:")
 n1 = Kernel.gets().chomp()
 Kernel.puts("Second Number:")
 n2 = Kernel.gets().chomp()
-Kernel.puts("Would you like to add, subtract, multiply, or divide?")
+Kernel.puts("Would you like to add, subtract, multiply, or divide the numbers #{n1} and #{n2}?")
 operation = Kernel.gets().chomp()
 
 result = if(operation == "add")
