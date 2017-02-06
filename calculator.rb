@@ -8,11 +8,11 @@ Kernel.puts("Would you like to add, subtract, multiply, or divide the numbers #{
 operation = Kernel.gets().chomp()
 
 result = if(operation == "add")
-  n1.to_f + n2.to_f
+  n1.to_i + n2.to_i
 elsif(operation == "subtract")
-  n1.to_f - n2.to_f
+  n1.to_i - n2.to_i
 elsif(operation == "multiply")
-  n1.to_f * n2.to_f
+  n1.to_i * n2.to_i
 elsif(operation == "divide")
   n1.to_f / n2.to_f
 else
