@@ -15,7 +15,7 @@
 # puts get_evens(numbers)
 
 def valid_number?(num)
-  integer?(num)
+  num.to_i.to_s == num
 end
 
 p valid_number?("hello")
