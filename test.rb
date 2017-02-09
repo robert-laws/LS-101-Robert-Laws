@@ -1,15 +1,25 @@
-numbers = [2, 5, 7, 9, 23, 63, 82, 13, 6, 17, 4]
+# numbers = [2, 5, 7, 9, 23, 63, 82, 13, 6, 17, 4]
+#
+# def get_evens(arr)
+#   counter = 0
+#   result = []
+#   arr.each do |n|
+#     if counter.even?
+#       result.push(n)
+#     end
+#     counter += 1
+#   end
+#   result
+# end
+#
+# puts get_evens(numbers)
 
-def get_evens(arr)
-  counter = 0
-  result = []
-  arr.each do |n|
-    if counter.even?
-      result.push(n)
-    end
-    counter += 1
-  end
-  result
+def valid_number?(num)
+  integer?(num)
 end
 
-puts get_evens(numbers)
+p valid_number?("hello")
+p valid_number?(4)
+p valid_number?(0)
+p valid_number?('0')
+p valid_number?(10)
