@@ -1,24 +1,24 @@
 # Score
 
 players = %w(user computer)
-user_wins = 0
-comp_wins = 0
+uw = 0
+cw = 0
 
-def get_win(winner)
-  if winner == 'user'
-    user_wins += 1
-  elsif winner == 'computer'
-    comp_wins += 1
+def get_wins(winner)
+  if winner == "user"
+
+  elsif winner == "computer"
+
   end
 end
 
 loop do
   winner = players.sample
 
-  get_win(winner)
+  get_wins(winner)
 
-  puts "Score - User: #{user_wins}, Computer: #{comp_wins}"
-  if user_wins == 5 || comp_wins == 5
+  puts "Score - User: #{uw}, Computer: #{cw}"
+  if uw == 5 || cw == 5
     break
   end
 
@@ -27,4 +27,4 @@ loop do
   break unless answer.downcase.start_with?('y')
 end
 
-puts "Final Score - User: #{user_wins}, Computer: #{comp_wins}"
+puts "Final Score - User: #{uw}, Computer: #{cw}"
