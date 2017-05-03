@@ -1,0 +1,27 @@
+1. a method that returns the sum of two integers
+Given two integers
+Receive the two integers passed through the method
+  - assign an addition operation to a new variable
+  - end the method -> returning the result saved in the variable
+
+
+2. a method that takes an array of strings, and returns a string that is all those strings concatenated together
+Given a collection strings
+Receive the collection passed through the method
+  - iterate through the collection
+  - assign each member of the collection to a variable
+  - when all members of the collection have been added to the variable, end the iteration
+  - end the method -> returning the result saved in the variable
+
+
+
+3. a method that takes an array of integers, and returns a new array with every other element
+Given a collection of integers
+Receive the collection passed through the method
+  - initialize a counter set to zero
+  - initialize an empty array
+  - iterate through collection
+  - perform a test to determine if the counter has a remainder of 0 when divided by 2
+    - if yes, add the current member of the collection to the empty array
+  - add one to the counter before beginning the next iteration
+  - after all iterations have finished, all the new array to be returned from the metho
